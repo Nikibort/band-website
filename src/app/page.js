@@ -39,7 +39,7 @@ export default function Home() {
 {/* Merch Section */}
   <section
     className="h-screen bg-cover bg-center relative text-white"
-    style={{ backgroundImage: "url('/lake.jpg')" }}
+    style={{ backgroundImage: "url('/lake.JPG')" }}
   >
     {/* Darker overlay for better contrast */}
     <div className="absolute inset-0 bg-black/30 z-0" />
