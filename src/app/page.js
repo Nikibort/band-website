@@ -47,7 +47,7 @@ export default function Home() {
     {/* Content box — bottom left */}
     <div className="absolute bottom-10 left-12 z-10 max-w-xl p-4">
       <p className="text-white text-2xl font-medium leading-relaxed">
-        We’re Driftwood — William and Mary's premiere rockband. If you want us to play your next gig, book us up using the contact info below!
+        We’re Driftwood — William and Mary's premiere rockband. If you want us to play your next event, book us up using the contact info below!
       </p>
       
     </div>
