@@ -27,13 +27,14 @@ export default function Home() {
 
         {/* Parallax Text */}
         <div
-          className="absolute bottom-32 left-24 max-w-xl z-10 transition-transform duration-200 ease-out"
+          className="absolute bottom-10 left-4 sm:bottom-32 sm:left-24 max-w-xl z-10 transition-transform duration-200 ease-out"
           style={{ transform: `translate(${transform.x}px, ${transform.y}px)` }}
         >
-          <h1 className="text-white text-8xl font-bold drop-shadow-xl transition-transform duration-300">
+          <h1 className="text-white text-4xl sm:text-6xl md:text-8xl font-bold drop-shadow-xl transition-transform duration-300">
             DRIFTWOOD
           </h1>
         </div>
+
       </section>
 
 {/* Merch Section */}
