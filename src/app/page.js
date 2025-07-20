@@ -258,9 +258,9 @@ export default function Home() {
     {/* Darker overlay for better contrast */}
     <div className="absolute inset-0 bg-black/30 z-0" />
 
-    {/* Concert Schedule — left side with animation and parallax */}
+    {/* Concert Schedule — centered on mobile, left on desktop */}
     <div
-      className="absolute left-4 sm:left-8 top-3/4 transform -translate-y-1/2 z-10 max-w-xs sm:max-w-2xl animate-slide-up"
+      className="absolute left-1/2 sm:left-8 top-3/4 transform -translate-x-1/2 sm:translate-x-0 -translate-y-1/2 z-10 max-w-xs sm:max-w-2xl animate-slide-up"
     >
       <div className="bg-black/60 backdrop-blur-sm rounded-lg p-4 sm:p-8 border border-white/20">
         <h3 className="text-2xl sm:text-4xl font-bold mb-6 sm:mb-10 text-center text-white">Upcoming Shows</h3>
