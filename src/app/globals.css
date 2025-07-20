@@ -39,3 +39,17 @@ body {
 .animate-slide-up {
   animation: slide-up 1.2s ease-out forwards;
 }
+
+.bg-lake-desktop {
+  background-image: url('/lake.JPG');
+}
+
+.bg-john-mobile {
+  background-image: url('/john.jpg');
+}
+
+@media (min-width: 769px) {
+  .bg-john-mobile {
+    background-image: url('/lake.JPG');
+  }
+}

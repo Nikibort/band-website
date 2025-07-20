@@ -252,8 +252,8 @@ export default function Home() {
 
 {/* Concert Schedule Section */}
   <section
-    className="h-screen bg-cover bg-center relative text-white overflow-hidden"
-    style={{ backgroundImage: "url('/lake.JPG')", backgroundPosition: "center 20%" }}
+    className="h-screen bg-cover bg-center relative text-white overflow-hidden bg-lake-desktop bg-john-mobile"
+    style={{ backgroundPosition: "center 20%" }}
   >
     {/* Darker overlay for better contrast */}
     <div className="absolute inset-0 bg-black/30 z-0" />
