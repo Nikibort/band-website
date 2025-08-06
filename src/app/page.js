@@ -24,13 +24,13 @@ export default function Home() {
     {
       name: "Abel Buell",
       role: "Guitar",
-      description: "Hi! I'm Abel from Richmond, Virginia and I'm a senior at William & Mary, majoring in Mathematics. My favorite song to play is \"Come together\" by the Beatles. Old but gold.",
+      description: "Abel is a senior at William & Mary from Richmond, Virginia, majoring in Mathematics. His favorite song to play is \"Come together\" by the Beatles. Old but gold.",
       image: "/abel.JPG"
     },
     {
       name: "John Stanfill",
       role: "Guitar",
-      description: "John's a senior at William and Mary studying Marine Biology - check out his reasearch on preservation efforts for endangered turtles! His favorite song to play is “Killby Girl” The Backseat Lovers.",
+      description: "John's a senior at William and Mary studying Marine Biology - check out his reasearch on preservation efforts for endangered turtles! He's also our tech guy, handling all our technical needs. His favorite song to play is “Killby Girl” The Backseat Lovers.",
       image: "/john2.jpg"
     },
     {
@@ -42,7 +42,7 @@ export default function Home() {
     {
       name: "Jack Eyles",
       role: "Drums & Vocals",
-      description: "Jack's a senior at William and Mary studying (??). He's part of numerous acapella groups as well as the musical collective Hyennas sound (check out their album on Spotify!). His favorite song to play is “Drag me Down” by One Direction.",
+      description: "Jack's a senior at William and Mary studying Music. He's our drummer but also our musical director. He's part of numerous acapella groups as well as the musical collective Hyennas sound (check out their album on Spotify!). His favorite song to play is “Drag me Down” by One Direction.",
       image: "/jack.JPG"
     }
   ];
@@ -267,27 +267,21 @@ export default function Home() {
         
         <div className="space-y-4 sm:space-y-8">
           <div className="border-l-4 border-white/60 pl-3 sm:pl-6">
-            <div className="text-lg sm:text-2xl font-semibold text-white">Spring Concert</div>
-            <div className="text-white/90 text-sm sm:text-lg">April 15, 2024</div>
-            <div className="text-white/80 text-xs sm:text-base">William & Mary Amphitheater</div>
+            <div className="text-lg sm:text-2xl font-semibold text-white">TribeLive</div>
+            <div className="text-white/90 text-sm sm:text-lg">September 19, 2024</div>
+            <div className="text-white/80 text-xs sm:text-base">William & Mary</div>
           </div>
           
           <div className="border-l-4 border-white/60 pl-3 sm:pl-6">
-            <div className="text-lg sm:text-2xl font-semibold text-white">Campus Fest</div>
-            <div className="text-white/90 text-sm sm:text-lg">May 3, 2024</div>
-            <div className="text-white/80 text-xs sm:text-base">Sunken Garden</div>
+            <div className="text-lg sm:text-2xl font-semibold text-white">Halloweekend</div>
+            <div className="text-white/90 text-sm sm:text-lg">October 31, 2025</div>
+            <div className="text-white/80 text-xs sm:text-base">Location TBD</div>
           </div>
           
           <div className="border-l-4 border-white/60 pl-3 sm:pl-6">
-            <div className="text-lg sm:text-2xl font-semibold text-white">Senior Send-off</div>
-            <div className="text-white/90 text-sm sm:text-lg">May 18, 2024</div>
-            <div className="text-white/80 text-xs sm:text-base">Sadler Center</div>
-          </div>
-          
-          <div className="border-l-4 border-white/60 pl-3 sm:pl-6">
-            <div className="text-lg sm:text-2xl font-semibold text-white">Summer Series</div>
-            <div className="text-white/90 text-sm sm:text-lg">June 8, 2024</div>
-            <div className="text-white/80 text-xs sm:text-base">Colonial Williamsburg</div>
+            <div className="text-lg sm:text-2xl font-semibold text-white">KD Cookout</div>
+            <div className="text-white/90 text-sm sm:text-lg">November 7, 2024</div>
+            <div className="text-white/80 text-xs sm:text-base">Kappa Delta Event</div>
           </div>
         </div>
       </div>
@@ -304,6 +298,12 @@ export default function Home() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 px-2 sm:px-4">Contact Us</h2>
               <p className="mb-2 text-sm sm:text-base">Email: nbortnichek@gmail.com</p>
               <p className="mb-2 text-sm sm:text-base">Phone: (571) 389 3605</p>
+              <a
+                href="/store"
+                className="inline-block text-white text-sm sm:text-base underline hover:text-white/80 transition-colors duration-300 mb-4"
+              >
+                Store
+              </a>
               <div className="flex justify-center lg:justify-start gap-4 sm:gap-8 mt-4">
                 <a
                   href="https://www.instagram.com/driftwood_wm/?hl=en"
@@ -329,7 +329,7 @@ export default function Home() {
             </div>
 
             {/* Song Suggestion Block */}
-            <div className="text-center lg:text-left lg:ml-8">
+            <div className="text-center lg:text-left">
               <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-4 px-2 sm:px-4">Have a song suggestion? Drop it below.</h2>
               <form onSubmit={handleSongSubmit} className="max-w-md mx-auto lg:mx-0">
                 <div className="relative">
