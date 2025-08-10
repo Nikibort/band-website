@@ -18,7 +18,7 @@ export default function Home() {
     {
       name: "Kiran Behr",
       role: "Vocals",
-      description: "Kiran is a Broadway performer and junior at William & Mary, double-majoring in Government and Music. His favorite song to sing is “Freaking Out on the Interstate” by Briston Maroney. Check him out on Broadway in the summer!",
+      description: "Kiran is a soul-pop vocalist and emerging musical theater performer. He has taken the stage at several venues across the East Coast including Don’t Tell Mama Cabaret in NYC. He is a junior at William and Mary. His favorite song to sing is Freakin Out On The Interstate by Briston Maroney. Check him out in NYC later this year!",
       image: "/kiran.jpg"
     },
     {
@@ -42,7 +42,7 @@ export default function Home() {
     {
       name: "Jack Eyles",
       role: "Drums & Vocals",
-      description: "Jack's a senior at William and Mary studying Music. He's our drummer but also our musical director. He's part of numerous acapella groups as well as the musical collective Hyennas sound (check out their album on Spotify!). His favorite song to play is “Drag me Down” by One Direction.",
+      description: "Jack's a senior at William and Mary studying Music. He's our drummer but also our musical director. He's part of numerous acapella groups as well as the musical collective Hyannis sound (check out their album on Spotify!). His favorite song to play is “Drag me Down” by One Direction.",
       image: "/jack.JPG"
     }
   ];
